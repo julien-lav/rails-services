@@ -1,0 +1,599 @@
+Started GET "/" for 127.0.0.1 at 2017-11-09 14:53:00 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/julien/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/julien/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 143ms (Views: 22.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:08:00 +0100
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:08:12 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 896ms (Views: 895.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:22:12 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 9.1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2017-11-09 15:22:20 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/" for 127.0.0.1 at 2017-11-09 15:22:51 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/" for 127.0.0.1 at 2017-11-09 15:24:24 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:25:37 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (134.5ms)
+Completed 500 Internal Server Error in 136ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `create_path' for #<#<Class:0x00007fa9005d2d60>:0x00007fa9005d1190>):
+    2: <p>Find me in app/views/home/index.html.erb</p>
+    3: 
+    4: 
+    5: <%= form_tag create_path do  %>
+    6: 
+    7: 
+    8:       <%= label_tag :tweet %>
+  
+app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___2941494244349761152_70181916154620'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:26:14 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (155.7ms)
+Completed 500 Internal Server Error in 158ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_path' for #<#<Class:0x00007fa8fc05c448>:0x00007fa90c03e848>
+Did you mean?  new_home_path):
+    2: <p>Find me in app/views/home/index.html.erb</p>
+    3: 
+    4: 
+    5: <%= form_tag new_path do  %>
+    6: 
+    7: 
+    8:       <%= label_tag :tweet %>
+  
+app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___2941494244349761152_70181879735920'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:26:15 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (117.7ms)
+Completed 500 Internal Server Error in 119ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_path' for #<#<Class:0x00007fa8fc05c448>:0x00007fa8f9ffb0c8>
+Did you mean?  new_home_path):
+    2: <p>Find me in app/views/home/index.html.erb</p>
+    3: 
+    4: 
+    5: <%= form_tag new_path do  %>
+    6: 
+    7: 
+    8:       <%= label_tag :tweet %>
+  
+app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___2941494244349761152_70181862759840'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:26:30 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (128.7ms)
+Completed 500 Internal Server Error in 133ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_path' for #<#<Class:0x00007fa8fc05c448>:0x00007fa8f82cc1c8>
+Did you mean?  new_home_path):
+    2: <p>Find me in app/views/home/index.html.erb</p>
+    3: 
+    4: 
+    5: <%= form_tag new_path do  %>
+    6: 
+    7: 
+    8:       <%= label_tag :tweet %>
+  
+app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___2941494244349761152_70181847464040'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:27:00 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (123.2ms)
+Completed 500 Internal Server Error in 125ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index_path' for #<#<Class:0x00007fa8fc05c448>:0x00005632e11f8d98>
+Did you mean?  video_path):
+    2: <p>Find me in app/views/home/index.html.erb</p>
+    3: 
+    4: 
+    5: <%= form_tag index_path do  %>
+    6: 
+    7: 
+    8:       <%= label_tag :tweet %>
+  
+app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___2941494244349761152_47388262655100'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:27:02 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (122.9ms)
+Completed 500 Internal Server Error in 125ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index_path' for #<#<Class:0x00007fa8fc05c448>:0x00005632dfcec058>
+Did you mean?  video_path):
+    2: <p>Find me in app/views/home/index.html.erb</p>
+    3: 
+    4: 
+    5: <%= form_tag index_path do  %>
+    6: 
+    7: 
+    8:       <%= label_tag :tweet %>
+  
+app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___2941494244349761152_47388251789300'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:27:34 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.7ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:27:38 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZYIWrvnGw3J0gXV6gZYnKKXTHK77NxMad/1zcZs8LYyIh12ESJVDcYid14LNVbrpo4kVEBGxDD+jZFaEl4yVlg==", "tweet"=>"dsfsfdsdfsd", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 38ms
+
+
+  
+NoMethodError (undefined method `find' for #<HomeController:0x00007fa9042c27e8>):
+  
+app/controllers/home_controller.rb:11:in `create'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:28:36 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.6ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:28:38 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a3KIFx4MdJo9YgiiDCVFhJLeNRYVfHw3BsZvVH2V75+Gd8M9r1/0mcF+qlpA5thFlIQ8qP/6YxLSX0qhcSVXhQ==", "tweet"=>"dsfsfdsdfsd", "commit"=>"Submit tweet"}
+No template found for HomeController#create, rendering head :no_content
+Completed 204 No Content in 299ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:40:52 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.0ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:40:57 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z4iDgPrxDhaTIe4PZR7spUho4iCrvYaj/tYjAzOmn1GKjciqS6KOFW89TPcp3XFkTjLrnkE7mYYqTwb2PxYnSw==", "tweet"=>"kuykugkku", "commit"=>"Submit tweet"}
+No template found for HomeController#create, rendering head :no_content
+Completed 204 No Content in 272ms
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:41:49 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.5ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:41:51 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NEQybXukEY2r4V8Im4UG/nS0f5Wrr8EPR6XbuCX+POfZQXlHyveRjlf9/fDXRps/cu52K0Ep3iqTPP5NKU6E/Q==", "tweet"=>"qsqsqskuykugkku", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 297ms
+
+
+  
+ActionView::MissingTemplate (Missing template home/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/julien/THP/rails-service/app/views"
+):
+  
+app/controllers/home_controller.rb:12:in `create'
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:42:19 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NEQybXukEY2r4V8Im4UG/nS0f5Wrr8EPR6XbuCX+POfZQXlHyveRjlf9/fDXRps/cu52K0Ep3iqTPP5NKU6E/Q==", "tweet"=>"dsqdsqdsqds", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 302ms
+
+
+  
+ActionView::MissingTemplate (Missing template /home with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/julien/THP/rails-service/app/views"
+):
+  
+app/controllers/home_controller.rb:12:in `create'
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:45:05 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NEQybXukEY2r4V8Im4UG/nS0f5Wrr8EPR6XbuCX+POfZQXlHyveRjlf9/fDXRps/cu52K0Ep3iqTPP5NKU6E/Q==", "tweet"=>"dsqdsqdsqds", "commit"=>"Submit tweet"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 429ms (Views: 11.7ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:45:09 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BREAajOPnHc+5ki/i9BxvUs7Z8jrpXIMyRXPKAAS6b/oFEtAgtwcdML66kfHE+x8TWFudgEjbSkdjOrdDKJRpQ==", "tweet"=>"sqdsqdsqdq", "commit"=>"Submit tweet"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 402ms (Views: 11.0ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:45:15 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pXP1v9d8fbWD2bDDm60Jwg/PbRzCnv/mZifLBZu0/8xIdr6VZi/9tn/FEjvXbpQDCZVkoigY4MOyvu7wlwRH1g==", "tweet"=>"bonjour", "commit"=>"Submit tweet"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 399ms (Views: 10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:52:05 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:52:54 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:53:07 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:53:25 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.4ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:53:42 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qf7gTAmAiT/SZveinjOIvs0PLkoQAgeuJJpzI1j9n/dE+6tmuNMJPC56VVrS8BV/y1Un9PqEGIvwA1bWVE0n7Q==", "movie"=>"", "commit"=>"Search movie"}
+Completed 500 Internal Server Error in 453ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:11:in `create'
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:55:16 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qf7gTAmAiT/SZveinjOIvs0PLkoQAgeuJJpzI1j9n/dE+6tmuNMJPC56VVrS8BV/y1Un9PqEGIvwA1bWVE0n7Q==", "movie"=>"", "commit"=>"Search movie"}
+Completed 500 Internal Server Error in 519ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:57:01 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qf7gTAmAiT/SZveinjOIvs0PLkoQAgeuJJpzI1j9n/dE+6tmuNMJPC56VVrS8BV/y1Un9PqEGIvwA1bWVE0n7Q==", "movie"=>"sd", "commit"=>"Search movie"}
+Completed 500 Internal Server Error in 405ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started POST "/home" for 127.0.0.1 at 2017-11-09 15:57:15 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qf7gTAmAiT/SZveinjOIvs0PLkoQAgeuJJpzI1j9n/dE+6tmuNMJPC56VVrS8BV/y1Un9PqEGIvwA1bWVE0n7Q==", "tweet"=>"Hello les marsiens", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 330ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started GET "/" for 127.0.0.1 at 2017-11-09 15:59:13 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 16:00:19 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 10.5ms)
+
+
+Started GET "/tweet" for 127.0.0.1 at 2017-11-09 16:04:51 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 16:42:13 +0100
+Processing by MovieController#index as HTML
+  Rendering movie/index.html.erb within layouts/application
+  Rendered movie/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 51ms (Views: 50.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 16:42:42 +0100
+Processing by MovieController#index as HTML
+  Rendering movie/index.html.erb within layouts/application
+  Rendered movie/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 16:43:25 +0100
+Processing by MovieController#index as HTML
+  Rendering movie/index.html.erb within layouts/application
+  Rendered movie/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 16:48:14 +0100
+Processing by MovieController#index as HTML
+  Rendering movie/index.html.erb within layouts/application
+  Rendered movie/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 11.2ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 16:48:16 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uE7LpoPXX0ACAl8vjjWqNm/SypI/x+m29A9Zxu9OKwlVS4CMMoTfQ/4e/dfC9jf3aYjDLNVB9pMglnwz4/6TEw==", "movie"=>"", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 338ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started GET "/" for 127.0.0.1 at 2017-11-09 16:48:39 +0100
+Processing by MovieController#index as HTML
+  Rendering movie/index.html.erb within layouts/application
+  Rendered movie/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 11.8ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 16:48:40 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q/8ttKfXNVbNBp7HmxX7sF+Jq0gH0/uwlv7+kAQvTwmu+maeFoS1VTEaPD/X1mZxWdOi9u1V5JVCZ9tlCJ/3Ew==", "movie"=>"", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 354ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started POST "/home" for 127.0.0.1 at 2017-11-09 16:48:44 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q/8ttKfXNVbNBp7HmxX7sF+Jq0gH0/uwlv7+kAQvTwmu+maeFoS1VTEaPD/X1mZxWdOi9u1V5JVCZ9tlCJ/3Ew==", "movie"=>"ssss", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 431ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started GET "/tweet" for 127.0.0.1 at 2017-11-09 16:48:52 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 18.2ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 16:48:59 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p1QZjbAWwKlRFj37vABhfXPh6CuQSzS6YkjUFWtuQRdKUVKnAUVAqq0KnwPww/y8dbvhlXrNK5+20fHgZ975DQ==", "tweet"=>"Dernier test", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 319ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started POST "/home" for 127.0.0.1 at 2017-11-09 16:49:08 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q/8ttKfXNVbNBp7HmxX7sF+Jq0gH0/uwlv7+kAQvTwmu+maeFoS1VTEaPD/X1mZxWdOi9u1V5JVCZ9tlCJ/3Ew==", "movie"=>"ssss", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 400ms
+
+
+  
+Twitter::Error::BadRequest (Bad Authentication data.):
+  
+app/services/send_tweet.rb:25:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started POST "/home" for 127.0.0.1 at 2017-11-09 16:49:45 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q/8ttKfXNVbNBp7HmxX7sF+Jq0gH0/uwlv7+kAQvTwmu+maeFoS1VTEaPD/X1mZxWdOi9u1V5JVCZ9tlCJ/3Ew==", "movie"=>"teste 150", "commit"=>"Submit tweet"}
+Completed 500 Internal Server Error in 180ms
+
+
+  
+Twitter::Error::Forbidden (Missing required parameter: status.):
+  
+app/services/send_tweet.rb:22:in `perform'
+app/controllers/home_controller.rb:9:in `create'
+Started GET "/tweet" for 127.0.0.1 at 2017-11-09 16:49:59 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.7ms)
+
+
+Started POST "/home" for 127.0.0.1 at 2017-11-09 16:50:17 +0100
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JHlITLdB7IeGPGA4IXD823P4jYg3xIx9IjIaFwBgeIjJfANmBhJshHogwsBts2EadaKENt1Ck1j2qz/iDNDAkg==", "tweet"=>"test 100", "commit"=>"Submit tweet"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 309ms (Views: 10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-09 16:57:53 +0100
+Processing by MovieController#index as HTML
+  Rendering movie/index.html.erb within layouts/application
+  Rendered movie/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 10.1ms)
+
+
+Started GET "/tweet" for 127.0.0.1 at 2017-11-09 17:08:56 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 12.1ms)
+
+
+Started GET "/tweet" for 127.0.0.1 at 2017-11-09 17:23:44 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.5ms)
+
+
+Started GET "/tweet" for 127.0.0.1 at 2017-11-09 17:24:24 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 10.7ms)
+
+
+Started GET "/tweet" for 127.0.0.1 at 2017-11-09 17:26:15 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 11.2ms)
+
+
+Started GET "/tweet" for 127.0.0.1 at 2017-11-09 17:27:38 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.7ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (135.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (151.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-11-09 16:32:35.594632"], ["updated_at", "2017-11-09 16:32:35.594632"]]
+  [1m[35m (82.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m

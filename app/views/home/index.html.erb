@@ -1,0 +1,15 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<hr>
+
+<%= form_tag home_index_path do  %>
+
+
+      <%= label_tag :tweet %>
+      <%= text_field_tag :tweet %>
+
+      <%= submit_tag "Submit tweet", class: "btn btn-large btn-primary" %>
+ <% end %>
+
+<hr>
